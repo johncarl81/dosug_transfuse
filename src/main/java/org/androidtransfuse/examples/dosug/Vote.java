@@ -22,4 +22,8 @@ public class Vote {
     @Inject
     @RegisterListener(R.id.bendervotebutton)
     private BenderVoteButtonListener benderVoteButtonListener;
+
+    @Inject
+    @RegisterListener(R.id.tallyvotes)
+    private TallyVotesListener tallyVotesListener;
 }

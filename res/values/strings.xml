@@ -6,4 +6,5 @@
     <string name="voteandy2">I Vote for Andy</string>
     <string name="votebender2">Vote for Bender</string>
     <string name="results">Results</string>
+    <string name="tallyvotes">Tally Votes</string>
 </resources>

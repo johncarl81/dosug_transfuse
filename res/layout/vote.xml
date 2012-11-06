@@ -26,4 +26,11 @@
             android:text="@string/votebender2"
             />
 
+    <Button
+            android:id="@+id/tallyvotes"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tallyvotes"
+            />
+
 </LinearLayout>

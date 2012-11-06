@@ -16,12 +16,14 @@ public class AndyVoteButtonListener implements View.OnClickListener, View.OnLong
     private Vibrator vibrator;
     private Context context;
     private IntentFactory intentFactory;
+    private BallotBox ballotBox;
 
     @Inject
-    public AndyVoteButtonListener(Vibrator vibrator, Context context, IntentFactory intentFactory) {
+    public AndyVoteButtonListener(Vibrator vibrator, Context context, IntentFactory intentFactory, BallotBox ballotBox) {
         this.vibrator = vibrator;
         this.context = context;
         this.intentFactory = intentFactory;
+        this.ballotBox = ballotBox;
     }
 
     @Override
@@ -33,7 +35,9 @@ public class AndyVoteButtonListener implements View.OnClickListener, View.OnLong
     @Override
     public boolean onLongClick(View v) {
 
-        intentFactory.start(new VotingResultsActivityStrategy("Andy Wins!"));
+        ballotBox.vote("Andy");
+
+        intentFactory.start(new VotingResultsActivityStrategy("Voted for Andy"));
 
         return true;
     }
