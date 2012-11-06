@@ -5,6 +5,6 @@ import org.androidtransfuse.annotations.Application;
 /**
  * @author John Ericksen
  */
-@Application(icon = "@drawable/icon")
+@Application(icon = "@drawable/icon", label = "@string/app_name", debuggable = true)
 public class VotingApplication {
 }
