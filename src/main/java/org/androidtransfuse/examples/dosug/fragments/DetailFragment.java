@@ -1,4 +1,4 @@
-package org.androidtransfuse.examples.dosug;
+package org.androidtransfuse.examples.dosug.fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import org.androidtransfuse.examples.dosug.R;
 
 public class DetailFragment extends Fragment {
 

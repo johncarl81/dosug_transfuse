@@ -1,9 +1,10 @@
-package org.androidtransfuse.examples.dosug;
+package org.androidtransfuse.examples.dosug.fragments;
 
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.widget.TextView;
+import org.androidtransfuse.examples.dosug.R;
 
 public class DetailActivity extends FragmentActivity {
     @Override

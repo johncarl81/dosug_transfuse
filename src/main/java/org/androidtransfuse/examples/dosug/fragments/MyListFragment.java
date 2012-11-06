@@ -1,4 +1,4 @@
-package org.androidtransfuse.examples.dosug;
+package org.androidtransfuse.examples.dosug.fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import org.androidtransfuse.examples.dosug.R;
 
 public class MyListFragment extends Fragment {
 
